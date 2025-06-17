@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tarea Electiva: Tech Vibes ⚡</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1f4037, #99f2c8);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      animation: pulse 2s infinite;
+      text-shadow: 0 0 10px #00fff7, 0 0 20px #00fff7;
+    }
+    p {
+      font-size: 1.5rem;
+      animation: fadeIn 3s ease forwards;
+      opacity: 0;
+      max-width: 600px;
+      text-align: center;
+      margin: 0 1rem;
+    }
+    @keyframes pulse {
+      0%, 100% { text-shadow: 0 0 10px #00fff7, 0 0 20px #00fff7; }
+      50% { text-shadow: 0 0 20px #0ff, 0 0 30px #0ff; }
+    }
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+    .glow {
+      color: #00fff7;
+      text-shadow: 0 0 8px #00fff7, 0 0 20px #0ff;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tarea Electiva 2: Tech Vibes ⚡</h1>
+  <p class="glow">La tecnología no solo cambia el mundo, ¡sino que también te da el poder de crear el futuro! 🚀✨</p>
+</body>
+</html>
